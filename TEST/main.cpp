@@ -29,7 +29,7 @@ typedef struct SNode{
     Program Mgame;
     Program Fgame;
     struct SNode *Next;
-    int grade;
+    int grade=0;
 }*Sport;
 
 Sport SCreate();
